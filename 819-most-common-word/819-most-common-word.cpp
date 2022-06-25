@@ -8,7 +8,7 @@ public:
             else elem = ' ';
         }
 
-        map<string, int> dic;
+        unordered_map<string, int> dic;
         for(auto& elem : banned)
             dic[elem] = -1;
         
